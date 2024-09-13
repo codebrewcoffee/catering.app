@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Chicken Wings & Caesar Salad",
+    "price": 15.0,
+    "sauces": ["BBQ", "Lemon Pepper", "Hot", "Old Bay", "Honey Old Bay"]
+  },
+  {
+    "name": "Philly Steak & Cheese w/ Seasoned Fries",
+    "price": 15.0
+  },
+  {
+    "name": "BBQ Short Ribs, Mac n Cheese w/ Green Beans",
+    "price": 15.0
+  },
+  {
+    "name": "Turkey Chili w/ Cornbread",
+    "price": 15.0
+  },
+  {
+    "name": "Grilled Chicken Caesar Wrap w/ Fresh Fruit",
+    "price": 15.0
+  }
+]
