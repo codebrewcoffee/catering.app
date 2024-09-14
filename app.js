@@ -15,8 +15,8 @@ document.addEventListener("DOMContentLoaded", () => {
       .replace(/[^\w-]/g, ""); // Remove non-alphanumeric characters except hyphens
   }
 
-  // Fetch the menu from the server
-  fetch("http://localhost:3000/api/menu")
+  // Fetch the menu from the server (using Render backend URL)
+  fetch("https://catering-app-gpmg.onrender.com/api/menu")
     .then((response) => response.json())
     .then((menu) => {
       menu.forEach((item) => {
@@ -107,8 +107,8 @@ document.addEventListener("DOMContentLoaded", () => {
       phone,
     };
 
-    // Send order to the server
-    fetch("http://localhost:3000/api/order", {
+    // Send order to the server (using Render backend URL)
+    fetch("https://catering-app-gpmg.onrender.com/api/order", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
