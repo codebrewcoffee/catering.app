@@ -1,5 +1,5 @@
 const path = require("path");
-require("dotenv").config({ path: path.resolve(__dirname, "../.env") }); // Ensure .env file is loaded from the root
+require("dotenv").config({ path: path.resolve(__dirname, ".env") });
 const express = require("express");
 const nodemailer = require("nodemailer");
 const cors = require("cors");
