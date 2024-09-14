@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catering Order</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <h1>Joe's Catering</h1>
+    </header>
+
+    <section id="menu">
+      <!-- Menu items will be dynamically inserted here -->
+    </section>
+
+    <section id="order-list">
+      <h2>Your Orders</h2>
+      <div class="order-category">
+        <h3>Pending Orders</h3>
+        <!-- Pending orders content here -->
+        <div id="order-items"></div>
+        <p><strong>Total Cost:</strong> $<span id="total-cost">0</span></p>
+        <!-- New Total Cost section -->
+      </div>
+    </section>
+
+    <div class="order-form">
+      <label for="phone">Phone Number:</label>
+      <input type="text" id="phone" placeholder="Enter your phone number" />
+      <button id="submit-order">Submit Order</button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
